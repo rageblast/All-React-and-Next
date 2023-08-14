@@ -5,6 +5,8 @@ import logger from 'redux-logger';
 
 import { rootReducer } from './root-reducer';
 
+// default middleware of redux toolkit itself has
+// thunk installed in it
 import thunk from 'redux-thunk';
 
 const middlewares = [
