@@ -4,6 +4,11 @@ const initialState = {
   currentUser: null,
 };
 
+// uses immer
+// setCurrentUser(state, action) {
+// state.currentUser = action.payload
+// }
+
 const userSlice = createSlice({
   name: 'user',
   initialState,
