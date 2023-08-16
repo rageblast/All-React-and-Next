@@ -2,6 +2,11 @@ import { createSlice } from '@reduxjs/toolkit';
 
 import { addCartItem, removeCartItem, clearCartItem } from './cart.action';
 
+// copy all the action into this file
+// addItemToCart(state, action) {
+// state.cartItems = addCartItems(state.cartItems, action.payload);
+// }
+
 export const cartSlice = createSlice({
   name: 'cart',
   initialState: {

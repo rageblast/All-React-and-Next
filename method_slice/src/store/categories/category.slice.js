@@ -8,6 +8,12 @@ const initialState = {
   error: null,
 };
 
+// reducers: {
+// setCategories(state, action) {
+// state.categories = action.payload;
+// }
+// }
+
 const categorySlice = createSlice({
   name: 'category',
   initialState,
